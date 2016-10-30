@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Compulsory Exercise 1</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="http://kendo.cdn.telerik.com/2016.3.914/js/kendo.all.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+    </head>
+    <body>
+        <section class="px">
+            <div id ="header">
+              <h1>Clothing Storage&nbsp;<small class="h1small">by Jan Fincke</small></h1>  
+            </div>
+        </section>
+        <div id="container">
+            <h2>Add or remove items from storage</h2>
+            <div id="form">
+                <form>
+                    <input id="name" type="name" pattern="^[A-Za-z]+" required aria-required="true" placeholder="Name">
+                    <input id="amount" type="number" min="0" required aria-required="true" placeholder="Amount">
+                    <button class="pure-button"  id="add" type="submit">Add item</button>
+                    <button class="pure-button"  id="remove">Remove last item</button>
+                </form>
+            </div>
+
+
+            <div id="list">
+                <div id="myChart" style="width: 500px;"></div>
+                <h2>Inventory list</h2>
+                <input id="search" type="text" placeholder="Filter items by name">
+                <br>
+                <br>
+                <ul id="itemlist"></ul>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<meta name="description" content="Exercise 3: Image Viewer"
+<head>
+    <title>Exercise 3: Image Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="setupGallery()">
+    <div id="gallery"></div>
+    <div id="preview">
+        <img class="images" src="flower.jpg">
+        <img class="images" src="animal.jpg">
+        <img class="images" src="kappa.jpg">
+    </div>
+    <input id="text" placeholder="type full image path">
+
+    <a style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+    <a style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+    
+        <button id="send">Add New Image</button>
+</body>
+</html>

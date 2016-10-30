@@ -1,0 +1,80 @@
+html, body, div, h1, h2, ul, li, form, header  {
+    margin: 0 !important;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+#header {
+    display: inline;
+    clear: both;
+    width: 900px;
+    height: 100px;
+    color: floralwhite;
+    margin-top: 0px;
+    
+}  
+
+#container {
+    margin-left: 30px;
+    width: 100%;
+    height: 800px;
+    min-width: 600px;
+    text-align: center;
+    /*background-color: aliceblue;*/
+   
+}
+
+h1 {
+    font-size: 60px !important;
+    padding-top: 27%;
+    padding-bottom: 20%;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h2 {
+    font-size: 30px !important;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.h1small {
+    font-size: 16px;
+    color: gainsboro;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#form {
+    width: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#itemlist {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list {
+    margin-left: 0;
+    width: auto;
+    clear:both;
+}
+
+#myChart {
+    display: inline-block;
+    clear:both;
+    backface-visibility: hidden;
+}
+
+.px {
+    background: url("store1.jpg") repeat fixed 100%;
+}
+#footer {
+    padding-bottom: 30%;
+}
